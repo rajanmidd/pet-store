@@ -15,6 +15,6 @@ RUN npm cache clean --force && npm install
 # Bundle app source
 COPY . /opt/app/
 
-EXPOSE 1005
+EXPOSE 3001
 
 CMD [ "npm", "start" ]
