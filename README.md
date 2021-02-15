@@ -15,7 +15,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 
 ## API details
 
-1.) ApI Name :- /owners (GET)
+1.) ApI Name :- /owners (GET) 
     This api is used to fetch all owners.
     
 2.) API name:- /owners/1 (GET)
