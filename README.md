@@ -11,7 +11,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 3.  Run "npm start" command to start the NodeJS server. 
 4.  After starting server , you can visit `http://localhost:1005/api-docs/` to check the apis.
 
-## How to Run Tests  (Explicity from cli) 
+## How to Run Tests  (Explicity from cli)  
 
 - You can run test cases by this command "npm test"
 - It will show you how many test cases are passed or failed.
