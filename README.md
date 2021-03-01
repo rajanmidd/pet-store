@@ -14,7 +14,7 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 ## How to Run Tests  (Explicity from cli)  
 
 - You can run test cases by this command "npm test"
-- It will show you how many test cases are passed or failed.
+- It will show you how many test cases  are passed or failed.
 
 ## API details
 
