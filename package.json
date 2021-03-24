@@ -1,11 +1,11 @@
 {
   "name": "assignment",
-  "version": "1.0.0",
+  "version": "1.2.4",
   "description": "We provice the microservice to handle different api using NodeJS, Es6 with docker",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "start": "nodemon index.js"
+    "test": "mocha --exit",
+    "start": "node index.js"
   },
   "author": "Rajan",
   "license": "ISC",
