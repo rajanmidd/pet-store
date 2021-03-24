@@ -24,7 +24,7 @@ describe('/POST', () => {
         chai
             .request(server)
             .post('/addPet')
-            .send({                
+            .send({
                 name: 'Molly',
                 colour: 'browne',
                 age: '5 year',

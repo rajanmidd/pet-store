@@ -3,7 +3,7 @@ const express= require('express');
 const app=express();
 const router=require("./routes/router");
 const bodyParser = require('body-parser');
-const port=process.argv.port || 1005;
+const port=process.argv.port || 3001;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -23,7 +23,7 @@ app.listen(port, (err)=>{
     console.log(`Server listen on the port ${port}.`);
 });
 
-//For Catching uncaught exception 
+//For Catching uncaught exception
 
 process.on('uncaughtException', function (err) {
     console.error((new Date).toUTCString() + ' uncaughtException:', err.message)

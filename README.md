@@ -1,3 +1,6 @@
+
+
+
 # Pet-store
 A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Case integration)
 
@@ -5,21 +8,21 @@ A Pet Store application with Node.js(ES6), Express framework, Mocha/chai(Test Ca
 
 1.  Clone the repo
 2.  Run "npm install command" to install add the dependencies.
-3.  Run "npm start" command to start the NodeJS server.
+3.  Run "npm start" command to start the NodeJS server. 
 4.  After starting server , you can visit `http://localhost:1005/api-docs/` to check the apis.
 
-## How to Run Tests (Explicity from cli)
+## How to Run Tests  (Explicity from cli)  
 
 - You can run test cases by this command "npm test"
-- It will show you how many test cases are passed or failed.
+- It will show you how many test cases  are passed or failed.
 
 ## API details
 
-1.) ApI Name :- /owners (GET)
-    This api is used to fetch all owners.
+1.) ApI Name :- /owners (GET) 
+    This api is  used to fetch all owners.    
     
-2.) API name:- /owners/1 (GET)
-    This api is used to get the single owner information with their pet.
+2.) API name:- /owners/1 (GET) 
+    This api is used to get the single owner information with their pet. 
     
 3.) Api Name :- /addPet (POST)
     This api is used to add a new pet in the json file.
